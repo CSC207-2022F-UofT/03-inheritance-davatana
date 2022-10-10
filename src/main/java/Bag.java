@@ -113,7 +113,7 @@ public abstract class Bag {
      * @return
      */
      public String popItem() {
-        if this.contents.length > 0 {
+        if (this.contents.length > 0) {
             return this.contents[this.contents.length - 1];
         }
         else {
