@@ -35,7 +35,6 @@ public abstract class Bag {
         this.color = colour;
         this.capacity = capacity;
         this.numberOfContents = 0;
-        this.contents = {};
     }
 
 
